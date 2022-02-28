@@ -7,7 +7,7 @@ const App = () => {
 
   if (!address) {
     return (
-      <div>
+      <div className="landing">
         <h1>Welcome to 0x58DA0</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
